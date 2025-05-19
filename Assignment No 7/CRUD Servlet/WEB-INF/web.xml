@@ -1,0 +1,51 @@
+<web-app>  
+<servlet>
+    <servlet-name>Home</servlet-name>
+    <servlet-class>Home</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>Home</servlet-name>
+    <url-pattern>/book</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>Add</servlet-name>
+    <servlet-class>Add</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>Add</servlet-name>
+    <url-pattern>/add</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>Update</servlet-name>
+    <servlet-class>Update</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>Update</servlet-name>
+    <url-pattern>/update</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>Edit</servlet-name>
+    <servlet-class>Edit</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>Edit</servlet-name>
+    <url-pattern>/edit</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>Delete</servlet-name>
+    <servlet-class>Delete</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>Delete</servlet-name>
+    <url-pattern>/delete</url-pattern>
+</servlet-mapping>
+</web-app>  
